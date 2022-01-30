@@ -51,7 +51,8 @@ class Dev(Configuration):
         'django.contrib.messages',
         'django.contrib.staticfiles',
         #my_apps 
-        "movies"
+        "movies",
+        "gh"
     ]
 
     MIDDLEWARE = [
