@@ -1,4 +1,4 @@
-from django.db.models.signals import post_save
+from django.db.models.signals import post_save,request_finished
 from django.dispatch import receiver
 
 from movies.models import SearchTerm
